@@ -1,5 +1,5 @@
 //
-//  MassiveViewController.swift
+//  CountriesDataSource.swift
 //  DataArchitectureSample
 //
 //  Created by Luciano Marisi on 26/03/2016.
@@ -8,21 +8,14 @@
 
 import UIKit
 
-private let reuseIdentifier = "reuseIdentifier"
-
-final class MassiveViewController: UIViewController, UITableViewDataSource {
-
-  @IBOutlet weak var tableView: UITableView!
+final class CountriesDataSource: NSObject, UITableViewDataSource {
   
   private let countries = Country.allCountries()
+  private let reuseIdentifier: String
   
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    tableView.dataSource = self
-    tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: reuseIdentifier)
+  init(reuseIdentifier: String) {
+    self.reuseIdentifier = reuseIdentifier
   }
-  
-  //MARK: UITableViewDataSource
   
   func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
     guard let cell = tableView.dequeueReusableCellWithIdentifier(reuseIdentifier) else {
@@ -36,5 +29,5 @@ final class MassiveViewController: UIViewController, UITableViewDataSource {
   func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return countries.count
   }
-
-}
+  
+} 
