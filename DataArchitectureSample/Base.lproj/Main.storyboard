@@ -38,6 +38,40 @@
             </objects>
             <point key="canvasLocation" x="-115" y="1238"/>
         </scene>
+        <!--Basic DataCoordinator-->
+        <scene sceneID="mgs-aL-FB0">
+            <objects>
+                <viewController id="YYt-mx-flM" customClass="CoordinatorViewController" customModule="DataArchitectureSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fOR-9W-Q3G"/>
+                        <viewControllerLayoutGuide type="bottom" id="VEC-9J-sv7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="d5f-AR-fTt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="0oY-mf-GpJ">
+                                <rect key="frame" x="0.0" y="20" width="600" height="531"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="0oY-mf-GpJ" secondAttribute="trailing" id="Yap-LL-eZ7"/>
+                            <constraint firstItem="VEC-9J-sv7" firstAttribute="top" secondItem="0oY-mf-GpJ" secondAttribute="bottom" id="aQP-7r-FfH"/>
+                            <constraint firstItem="0oY-mf-GpJ" firstAttribute="top" secondItem="fOR-9W-Q3G" secondAttribute="bottom" id="cEG-7r-iSc"/>
+                            <constraint firstItem="0oY-mf-GpJ" firstAttribute="leading" secondItem="d5f-AR-fTt" secondAttribute="leading" id="lVn-Yd-vXS"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Basic DataCoordinator" id="9cu-8W-zMF"/>
+                    <connections>
+                        <outlet property="tableView" destination="0oY-mf-GpJ" id="KfZ-0z-6zi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZKn-Aw-9ut" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1236" y="1238"/>
+        </scene>
         <!--LVC + DataSource-->
         <scene sceneID="qh4-Gk-amw">
             <objects>
@@ -84,6 +118,7 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Ctd-Nk-Qz6"/>
                         <segue destination="238-NB-7TQ" kind="relationship" relationship="viewControllers" id="XId-wk-BSO"/>
+                        <segue destination="YYt-mx-flM" kind="relationship" relationship="viewControllers" id="bKj-rn-r8L"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tRg-X4-P6o" userLabel="First Responder" sceneMemberID="firstResponder"/>
