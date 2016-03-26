@@ -23,7 +23,7 @@ class GenericTableViewDataCoordinator<CellType: UITableViewCell, DataProviderTyp
   func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
     
     guard let cell = tableView.dequeueReusableCellWithIdentifier(CellType.reuseIdentifier()) as? CellType else {
-      fatalError("Could not dequeue CustomTableViewCell with identifier: \(CellType.reuseIdentifier())")
+      fatalError("Could not dequeue cell of type: \(CellType.self) with identifier: \(CellType.reuseIdentifier())")
     }
     
     if let object = dataProvider.objectAtIndexPath(indexPath) {

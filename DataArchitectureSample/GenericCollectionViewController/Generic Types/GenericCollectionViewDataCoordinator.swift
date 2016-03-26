@@ -22,7 +22,7 @@ class GenericCollectionViewDataCoordinator<CellType: UICollectionViewCell, DataP
   
   func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
     guard let cell = collectionView.dequeueReusableCellWithReuseIdentifier(CellType.reuseIdentifier(), forIndexPath: indexPath) as? CellType else {
-      fatalError("Could not dequeue CustomTableViewCell with identifier: \(CellType.reuseIdentifier())")
+      fatalError("Could not dequeue cell of type: \(CellType.self) with identifier: \(CellType.reuseIdentifier())")
     }
     
     if let object = dataProvider.objectAtIndexPath(indexPath) {
