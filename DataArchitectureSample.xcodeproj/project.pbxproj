@@ -21,6 +21,10 @@
 		4F4E28F91CA714B400FB3046 /* CountriesDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4E28F41CA714B400FB3046 /* CountriesDataProvider.swift */; };
 		4F4E28FA1CA714B400FB3046 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4E28F61CA714B400FB3046 /* DataProvider.swift */; };
 		4F4E28FB1CA714B400FB3046 /* TableViewDataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4E28F71CA714B400FB3046 /* TableViewDataCoordinator.swift */; };
+		4F841C9D1CA718A300B29184 /* CustomCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F841C9C1CA718A300B29184 /* CustomCellViewController.swift */; };
+		4F841CA21CA7199500B29184 /* ConfigurableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F841CA11CA7199500B29184 /* ConfigurableCell.swift */; };
+		4F841CA61CA71A6F00B29184 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F841CA41CA71A6F00B29184 /* CustomTableViewCell.swift */; };
+		4F841CA71CA71A6F00B29184 /* CustomCellDataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F841CA51CA71A6F00B29184 /* CustomCellDataCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,10 @@
 		4F4E28F41CA714B400FB3046 /* CountriesDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesDataProvider.swift; sourceTree = "<group>"; };
 		4F4E28F61CA714B400FB3046 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		4F4E28F71CA714B400FB3046 /* TableViewDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDataCoordinator.swift; sourceTree = "<group>"; };
+		4F841C9C1CA718A300B29184 /* CustomCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellViewController.swift; sourceTree = "<group>"; };
+		4F841CA11CA7199500B29184 /* ConfigurableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurableCell.swift; sourceTree = "<group>"; };
+		4F841CA41CA71A6F00B29184 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		4F841CA51CA71A6F00B29184 /* CustomCellDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellDataCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 				4F27EBD91CA703CB00AE4C73 /* MassiveViewController.swift */,
 				4F4E28E21CA70F2400FB3046 /* LighterViewController */,
 				4F4E28E71CA7102600FB3046 /* CoordinatorViewController */,
+				4F841C951CA7178200B29184 /* CustomCellViewController */,
 				4F27EBDE1CA703CB00AE4C73 /* Assets.xcassets */,
 				4F27EBE01CA703CB00AE4C73 /* LaunchScreen.storyboard */,
 				4F27EBE31CA703CB00AE4C73 /* Info.plist */,
@@ -150,6 +159,33 @@
 				4F4E28F71CA714B400FB3046 /* TableViewDataCoordinator.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		4F841C951CA7178200B29184 /* CustomCellViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F841C9C1CA718A300B29184 /* CustomCellViewController.swift */,
+				4F841CA01CA7198B00B29184 /* Protocols */,
+				4F841CA31CA71A6F00B29184 /* Concrete Types */,
+			);
+			path = CustomCellViewController;
+			sourceTree = "<group>";
+		};
+		4F841CA01CA7198B00B29184 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4F841CA11CA7199500B29184 /* ConfigurableCell.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		4F841CA31CA71A6F00B29184 /* Concrete Types */ = {
+			isa = PBXGroup;
+			children = (
+				4F841CA41CA71A6F00B29184 /* CustomTableViewCell.swift */,
+				4F841CA51CA71A6F00B29184 /* CustomCellDataCoordinator.swift */,
+			);
+			path = "Concrete Types";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,15 +290,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F4E28E41CA70F2400FB3046 /* LighterViewController.swift in Sources */,
+				4F841CA61CA71A6F00B29184 /* CustomTableViewCell.swift in Sources */,
 				4F27EBDA1CA703CB00AE4C73 /* MassiveViewController.swift in Sources */,
 				4F4E28E61CA70F2F00FB3046 /* CountriesDataSource.swift in Sources */,
 				4F4E28E91CA7103000FB3046 /* CoordinatorViewController.swift in Sources */,
 				4F4E28DE1CA708EE00FB3046 /* Country.swift in Sources */,
 				4F27EBD81CA703CB00AE4C73 /* AppDelegate.swift in Sources */,
+				4F841C9D1CA718A300B29184 /* CustomCellViewController.swift in Sources */,
 				4F4E28FA1CA714B400FB3046 /* DataProvider.swift in Sources */,
 				4F4E28F81CA714B400FB3046 /* CountriesDataCoordinator.swift in Sources */,
+				4F841CA21CA7199500B29184 /* ConfigurableCell.swift in Sources */,
 				4F4E28FB1CA714B400FB3046 /* TableViewDataCoordinator.swift in Sources */,
 				4F4E28F91CA714B400FB3046 /* CountriesDataProvider.swift in Sources */,
+				4F841CA71CA71A6F00B29184 /* CustomCellDataCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
