@@ -10,9 +10,7 @@ import UIKit
 
 final class SimpleCountriesDataCoordinator : GenericTableViewDataCoordinator<CustomTableViewCell, CountriesDataProvider> {
   
-  private let countriesDataProvider = CountriesDataProvider()
-  
-  init(tableView: UITableView) {
+  init(tableView: UITableView, countriesDataProvider: CountriesDataProvider = CountriesDataProvider()) {
     super.init(tableView: tableView, dataProvider: countriesDataProvider)
   }
   

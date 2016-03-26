@@ -10,9 +10,7 @@ import UIKit
 
 final class CollectionViewCountriesDataCoordinator : GenericCollectionViewDataCoordinator<CustomCollectionViewCell, CountriesDataProvider> {
   
-  private let countriesDataProvider = CountriesDataProvider()
-  
-  init(collectionView: UICollectionView) {
+ init(collectionView: UICollectionView, countriesDataProvider: CountriesDataProvider = CountriesDataProvider()) {
     super.init(collectionView: collectionView, dataProvider: countriesDataProvider)
   }
   
