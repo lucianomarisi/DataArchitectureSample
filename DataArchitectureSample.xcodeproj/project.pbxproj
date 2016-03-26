@@ -28,6 +28,10 @@
 		4F81FA1C1CA72C2000D78073 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81FA171CA72C2000D78073 /* CustomTableViewCell.swift */; };
 		4F81FA1D1CA72C2000D78073 /* CustomTableViewCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81FA181CA72C2000D78073 /* CustomTableViewCellViewController.swift */; };
 		4F81FA1E1CA72C2000D78073 /* ConfigurableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81FA1A1CA72C2000D78073 /* ConfigurableCell.swift */; };
+		4F81FA211CA72CB700D78073 /* GenericCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81FA201CA72CB700D78073 /* GenericCollectionViewController.swift */; };
+		4F81FA2B1CA72E6800D78073 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81FA2A1CA72E6800D78073 /* CustomCollectionViewCell.swift */; };
+		4F81FA2D1CA72E8900D78073 /* GenericCollectionViewDataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81FA2C1CA72E8900D78073 /* GenericCollectionViewDataCoordinator.swift */; };
+		4F81FA2F1CA72F5200D78073 /* CollectionViewCountriesDataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81FA2E1CA72F5200D78073 /* CollectionViewCountriesDataCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,11 +65,15 @@
 		4F4E28F71CA714B400FB3046 /* TableViewDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDataCoordinator.swift; sourceTree = "<group>"; };
 		4F81FA0C1CA72BFD00D78073 /* GenericTableViewDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericTableViewDataCoordinator.swift; sourceTree = "<group>"; };
 		4F81FA0E1CA72BFD00D78073 /* SimpleCountriesDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCountriesDataCoordinator.swift; sourceTree = "<group>"; };
-		4F81FA0F1CA72BFD00D78073 /* GenericTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericTableViewController.swift; sourceTree = "<group>"; };
+		4F81FA0F1CA72BFD00D78073 /* GenericTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GenericTableViewController.swift; path = ../GenericTableViewController.swift; sourceTree = "<group>"; };
 		4F81FA161CA72C2000D78073 /* CustomCellDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCellDataCoordinator.swift; sourceTree = "<group>"; };
 		4F81FA171CA72C2000D78073 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		4F81FA181CA72C2000D78073 /* CustomTableViewCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCellViewController.swift; sourceTree = "<group>"; };
 		4F81FA1A1CA72C2000D78073 /* ConfigurableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurableCell.swift; sourceTree = "<group>"; };
+		4F81FA201CA72CB700D78073 /* GenericCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericCollectionViewController.swift; sourceTree = "<group>"; };
+		4F81FA2A1CA72E6800D78073 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		4F81FA2C1CA72E8900D78073 /* GenericCollectionViewDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericCollectionViewDataCoordinator.swift; sourceTree = "<group>"; };
+		4F81FA2E1CA72F5200D78073 /* CollectionViewCountriesDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCountriesDataCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +123,7 @@
 				4F4E28E71CA7102600FB3046 /* CoordinatorViewController */,
 				4F81FA141CA72C2000D78073 /* CustomTableViewCellViewController */,
 				4F81FA091CA72BFD00D78073 /* GenericTableViewController */,
+				4F81FA1F1CA72C6C00D78073 /* GenericCollectionViewController */,
 				4F27EBDE1CA703CB00AE4C73 /* Assets.xcassets */,
 				4F27EBE01CA703CB00AE4C73 /* LaunchScreen.storyboard */,
 				4F27EBE31CA703CB00AE4C73 /* Info.plist */,
@@ -172,8 +181,6 @@
 			isa = PBXGroup;
 			children = (
 				4F81FA0A1CA72BFD00D78073 /* ConcreteTypes */,
-				4F81FA0F1CA72BFD00D78073 /* GenericTableViewController.swift */,
-				4F81FA101CA72BFD00D78073 /* Protocol */,
 			);
 			path = GenericTableViewController;
 			sourceTree = "<group>";
@@ -181,6 +188,7 @@
 		4F81FA0A1CA72BFD00D78073 /* ConcreteTypes */ = {
 			isa = PBXGroup;
 			children = (
+				4F81FA0F1CA72BFD00D78073 /* GenericTableViewController.swift */,
 				4F81FA0B1CA72BFD00D78073 /* Generic Types */,
 				4F81FA0D1CA72BFD00D78073 /* Specific Types */,
 			);
@@ -201,13 +209,6 @@
 				4F81FA0E1CA72BFD00D78073 /* SimpleCountriesDataCoordinator.swift */,
 			);
 			path = "Specific Types";
-			sourceTree = "<group>";
-		};
-		4F81FA101CA72BFD00D78073 /* Protocol */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Protocol;
 			sourceTree = "<group>";
 		};
 		4F81FA141CA72C2000D78073 /* CustomTableViewCellViewController */ = {
@@ -235,6 +236,33 @@
 				4F81FA1A1CA72C2000D78073 /* ConfigurableCell.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		4F81FA1F1CA72C6C00D78073 /* GenericCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4F81FA201CA72CB700D78073 /* GenericCollectionViewController.swift */,
+				4F81FA281CA72E5600D78073 /* Generic Types */,
+				4F81FA291CA72E6800D78073 /* Specific Types */,
+			);
+			path = GenericCollectionViewController;
+			sourceTree = "<group>";
+		};
+		4F81FA281CA72E5600D78073 /* Generic Types */ = {
+			isa = PBXGroup;
+			children = (
+				4F81FA2C1CA72E8900D78073 /* GenericCollectionViewDataCoordinator.swift */,
+			);
+			path = "Generic Types";
+			sourceTree = "<group>";
+		};
+		4F81FA291CA72E6800D78073 /* Specific Types */ = {
+			isa = PBXGroup;
+			children = (
+				4F81FA2E1CA72F5200D78073 /* CollectionViewCountriesDataCoordinator.swift */,
+				4F81FA2A1CA72E6800D78073 /* CustomCollectionViewCell.swift */,
+			);
+			path = "Specific Types";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,9 +369,12 @@
 				4F4E28E41CA70F2400FB3046 /* LighterViewController.swift in Sources */,
 				4F81FA111CA72BFD00D78073 /* GenericTableViewDataCoordinator.swift in Sources */,
 				4F81FA1E1CA72C2000D78073 /* ConfigurableCell.swift in Sources */,
+				4F81FA2D1CA72E8900D78073 /* GenericCollectionViewDataCoordinator.swift in Sources */,
 				4F81FA1D1CA72C2000D78073 /* CustomTableViewCellViewController.swift in Sources */,
 				4F81FA1B1CA72C2000D78073 /* CustomCellDataCoordinator.swift in Sources */,
+				4F81FA2F1CA72F5200D78073 /* CollectionViewCountriesDataCoordinator.swift in Sources */,
 				4F81FA121CA72BFD00D78073 /* SimpleCountriesDataCoordinator.swift in Sources */,
+				4F81FA2B1CA72E6800D78073 /* CustomCollectionViewCell.swift in Sources */,
 				4F81FA1C1CA72C2000D78073 /* CustomTableViewCell.swift in Sources */,
 				4F27EBDA1CA703CB00AE4C73 /* MassiveViewController.swift in Sources */,
 				4F4E28E61CA70F2F00FB3046 /* CountriesDataSource.swift in Sources */,
@@ -354,6 +385,7 @@
 				4F4E28F81CA714B400FB3046 /* CountriesDataCoordinator.swift in Sources */,
 				4F81FA131CA72BFD00D78073 /* GenericTableViewController.swift in Sources */,
 				4F4E28FB1CA714B400FB3046 /* TableViewDataCoordinator.swift in Sources */,
+				4F81FA211CA72CB700D78073 /* GenericCollectionViewController.swift in Sources */,
 				4F4E28F91CA714B400FB3046 /* CountriesDataProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
