@@ -1,5 +1,5 @@
 //
-//  GenericCellViewController.swift
+//  GenericTableViewController.swift
 //  DataArchitectureSample
 //
 //  Created by Luciano Marisi on 26/03/2016.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class GenericCellViewController: UIViewController {
+final class GenericTableViewController: UIViewController {
   
   @IBOutlet weak var tableView: UITableView!
   

@@ -100,7 +100,7 @@
         <!--Generic Coordinator-->
         <scene sceneID="Q0i-yC-cjI">
             <objects>
-                <viewController id="U55-2D-sJb" customClass="GenericCellViewController" customModule="DataArchitectureSample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="U55-2D-sJb" customClass="GenericTableViewController" customModule="DataArchitectureSample" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="vmk-y8-fek"/>
                         <viewControllerLayoutGuide type="bottom" id="mJw-gM-3tm"/>
