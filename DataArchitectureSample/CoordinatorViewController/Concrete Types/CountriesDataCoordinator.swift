@@ -1,5 +1,5 @@
 //
-//  CountriesDataCoordinator.swift
+//  ComplexCountriesDataCoordinator.swift
 //  DataArchitectureSample
 //
 //  Created by Luciano Marisi on 26/03/2016.
@@ -10,7 +10,7 @@ import UIKit
 
 private let reuseIdentifier = "reuseIdentifier"
 
-final class CountriesDataCoordinator : NSObject, TableViewDataCoordinator {
+final class ComplexCountriesDataCoordinator : NSObject, TableViewDataCoordinator {
   
   let countriesDataProvider = CountriesDataProvider()
   

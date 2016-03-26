@@ -1,5 +1,5 @@
 //
-//  CoordinatorViewController.swift
+//  GenericCellViewController.swift
 //  DataArchitectureSample
 //
 //  Created by Luciano Marisi on 26/03/2016.
@@ -8,15 +8,15 @@
 
 import UIKit
 
-final class CoordinatorViewController: UIViewController {
+final class GenericCellViewController: UIViewController {
   
   @IBOutlet weak var tableView: UITableView!
   
-  var countriesDataCoordinator: ComplexCountriesDataCoordinator?
+  var countriesDataCoordinator: SimpleCountriesDataCoordinator?
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    countriesDataCoordinator = ComplexCountriesDataCoordinator(tableView: tableView)
+    countriesDataCoordinator = SimpleCountriesDataCoordinator(tableView: tableView)
   }
   
 }
