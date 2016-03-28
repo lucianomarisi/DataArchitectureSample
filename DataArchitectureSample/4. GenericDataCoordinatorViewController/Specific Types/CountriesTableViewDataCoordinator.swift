@@ -11,6 +11,8 @@ import UIKit
 final class CountriesTableViewDataCoordinator : GenericTableViewDataCoordinator<CountryTableViewCell, CountriesDataProvider> {
   
   init(tableView: UITableView, countriesDataProvider: CountriesDataProvider = CountriesDataProvider()) {
+    let customCellNib = UINib(nibName: "\(CountryTableViewCell.self)", bundle: nil)
+    tableView.registerNib(customCellNib, forCellReuseIdentifier: CountryTableViewCell.reuseIdentifier())
     super.init(tableView: tableView, dataProvider: countriesDataProvider)
   }
   

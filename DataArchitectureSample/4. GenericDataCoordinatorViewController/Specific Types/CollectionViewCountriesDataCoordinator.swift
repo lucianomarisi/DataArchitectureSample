@@ -10,7 +10,9 @@ import UIKit
 
 final class CollectionViewCountriesDataCoordinator : GenericCollectionViewDataCoordinator<CountryCollectionViewCell, CountriesDataProvider> {
   
- init(collectionView: UICollectionView, countriesDataProvider: CountriesDataProvider = CountriesDataProvider()) {
+  init(collectionView: UICollectionView, countriesDataProvider: CountriesDataProvider = CountriesDataProvider()) {
+    let customCellNib = UINib(nibName: "\(CountryCollectionViewCell.self)", bundle: nil)
+    collectionView.registerNib(customCellNib, forCellWithReuseIdentifier: CountryCollectionViewCell.reuseIdentifier())
     super.init(collectionView: collectionView, dataProvider: countriesDataProvider)
   }
   

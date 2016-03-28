@@ -19,6 +19,7 @@ final class GenericDataDataCoordinatorViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     let countriesDataProvider = CountriesDataProvider()
+    // Example of how the CountriesDataProvider can be reuse for different coordinators
     collectionViewDataCoordinator = CollectionViewCountriesDataCoordinator(collectionView: collectionView, countriesDataProvider: countriesDataProvider)
     tableViewDataCoordinator = CountriesTableViewDataCoordinator(tableView: tableView, countriesDataProvider: countriesDataProvider)
   }
