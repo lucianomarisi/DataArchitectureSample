@@ -204,8 +204,8 @@
 		4FBF75CC1CA997350032AD54 /* Generic Types */ = {
 			isa = PBXGroup;
 			children = (
-				4FBF75CD1CA997350032AD54 /* GenericCollectionViewDataCoordinator.swift */,
 				4FBF75CE1CA997350032AD54 /* GenericTableViewDataCoordinator.swift */,
+				4FBF75CD1CA997350032AD54 /* GenericCollectionViewDataCoordinator.swift */,
 			);
 			path = "Generic Types";
 			sourceTree = "<group>";

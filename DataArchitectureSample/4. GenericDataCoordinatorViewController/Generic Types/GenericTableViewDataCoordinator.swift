@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GenericTableViewDataCoordinator<CellType: UITableViewCell, DataProviderType: DataProvider where CellType: ConfigurableCell, CellType.DataObject == DataProviderType.DataObject> : NSObject, UITableViewDataSource {
+class GenericTableViewDataCoordinator<DataProviderType: DataProvider, CellType: UITableViewCell where CellType: ConfigurableCell, CellType.DataObject == DataProviderType.DataObject> : NSObject, UITableViewDataSource {
   
   private let dataProvider: DataProviderType
   

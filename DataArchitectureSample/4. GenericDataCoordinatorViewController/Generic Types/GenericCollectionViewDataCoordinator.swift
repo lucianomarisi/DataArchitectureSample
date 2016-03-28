@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GenericCollectionViewDataCoordinator<CellType: UICollectionViewCell, DataProviderType: DataProvider where CellType: ConfigurableCell, CellType.DataObject == DataProviderType.DataObject> : NSObject, UICollectionViewDataSource {
+class GenericCollectionViewDataCoordinator<DataProviderType: DataProvider, CellType: UICollectionViewCell where CellType: ConfigurableCell, CellType.DataObject == DataProviderType.DataObject> : NSObject, UICollectionViewDataSource {
   
   private let dataProvider: DataProviderType
   

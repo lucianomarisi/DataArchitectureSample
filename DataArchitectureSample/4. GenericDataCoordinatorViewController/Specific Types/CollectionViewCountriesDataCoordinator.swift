@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class CollectionViewCountriesDataCoordinator : GenericCollectionViewDataCoordinator<CountryCollectionViewCell, CountriesDataProvider> {
+final class CollectionViewCountriesDataCoordinator : GenericCollectionViewDataCoordinator<CountriesDataProvider, CountryCollectionViewCell> {
   
   init(collectionView: UICollectionView, countriesDataProvider: CountriesDataProvider = CountriesDataProvider()) {
     let customCellNib = UINib(nibName: "\(CountryCollectionViewCell.self)", bundle: nil)
