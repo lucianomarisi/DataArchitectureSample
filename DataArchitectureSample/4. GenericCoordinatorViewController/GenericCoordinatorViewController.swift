@@ -14,12 +14,12 @@ final class GenericCoordinatorViewController: UIViewController {
   @IBOutlet weak var tableView: UITableView!
 
   var collectionViewDataCoordinator: CollectionViewCountriesDataCoordinator?
-  var tableViewDataCoordinator: SimpleCountriesDataCoordinator?
+  var tableViewDataCoordinator: CountriesTableViewDataCoordinator?
 
   override func viewDidLoad() {
     super.viewDidLoad()
     let countriesDataProvider = CountriesDataProvider()
     collectionViewDataCoordinator = CollectionViewCountriesDataCoordinator(collectionView: collectionView, countriesDataProvider: countriesDataProvider)
-    tableViewDataCoordinator = SimpleCountriesDataCoordinator(tableView: tableView, countriesDataProvider: countriesDataProvider)
+    tableViewDataCoordinator = CountriesTableViewDataCoordinator(tableView: tableView, countriesDataProvider: countriesDataProvider)
   }
 }

@@ -54,7 +54,7 @@
                                 <rect key="frame" x="0.0" y="20" width="300" height="531"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CustomTableViewCell" rowHeight="44" id="Rba-Rv-BAj" customClass="CustomTableViewCell" customModule="DataArchitectureSample" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CountryTableViewCell" rowHeight="44" id="Rba-Rv-BAj" customClass="CountryTableViewCell" customModule="DataArchitectureSample" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="300" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Rba-Rv-BAj" id="Tu2-ZV-CpX">

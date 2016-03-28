@@ -6,7 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CustomTableViewCell" customModule="DataArchitectureSample" customModuleProvider="target">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CountryTableViewCell" customModule="DataArchitectureSample" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="600" height="100"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -24,7 +24,7 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
-                <outlet property="countryNameLabel" destination="23y-lX-3Cd" id="hfV-hQ-tTq"/>
+                <outlet property="countryNameLabel" destination="23y-lX-3Cd" id="CZE-y0-j9F"/>
             </connections>
         </view>
     </objects>

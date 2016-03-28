@@ -1,5 +1,5 @@
 //
-//  CustomTableViewCell+ConfigurableCell.swift
+//  CountryTableViewCell+ConfigurableCell.swift
 //  DataArchitectureSample
 //
 //  Created by Luciano Marisi on 28/03/2016.
@@ -8,12 +8,12 @@
 
 import Foundation
 
-extension CustomTableViewCell: ConfigurableCell {
+extension CountryTableViewCell: ConfigurableCell {
   func configureForObject(country: Country) {
     countryNameLabel.text = country.name
   }
   
   static func reuseIdentifier() -> String {
-    return "CustomTableViewCell"
+    return "CountryTableViewCell"
   }
 }

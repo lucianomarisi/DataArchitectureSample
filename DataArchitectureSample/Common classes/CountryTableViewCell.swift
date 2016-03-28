@@ -1,5 +1,5 @@
 //
-//  CustomTableViewCell.swift
+//  CountryTableViewCell.swift
 //  DataArchitectureSample
 //
 //  Created by Luciano Marisi on 26/03/2016.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class CustomTableViewCell : UITableViewCell {
+final class CountryTableViewCell : UITableViewCell {
   
   @IBOutlet var countryNameLabel: UILabel!
   

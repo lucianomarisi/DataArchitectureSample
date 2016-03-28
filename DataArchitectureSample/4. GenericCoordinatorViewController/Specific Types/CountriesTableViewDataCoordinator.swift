@@ -1,5 +1,5 @@
 //
-//  SimpleCountriesDataCoordinator.swift
+//  CountriesTableViewDataCoordinator.swift
 //  DataArchitectureSample
 //
 //  Created by Luciano Marisi on 26/03/2016.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class SimpleCountriesDataCoordinator : GenericTableViewDataCoordinator<CustomTableViewCell, CountriesDataProvider> {
+final class CountriesTableViewDataCoordinator : GenericTableViewDataCoordinator<CountryTableViewCell, CountriesDataProvider> {
   
   init(tableView: UITableView, countriesDataProvider: CountriesDataProvider = CountriesDataProvider()) {
     super.init(tableView: tableView, dataProvider: countriesDataProvider)

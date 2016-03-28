@@ -18,7 +18,7 @@ final class CountriesDataSource: NSObject, UITableViewDataSource {
   }
   
   func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-    guard let cell = tableView.dequeueReusableCellWithIdentifier(reuseIdentifier) as? CustomTableViewCell else {
+    guard let cell = tableView.dequeueReusableCellWithIdentifier(reuseIdentifier) as? CountryTableViewCell else {
       fatalError("Could not dequeue cell with identifier: \(reuseIdentifier)")
     }
     let country = countries[indexPath.row]

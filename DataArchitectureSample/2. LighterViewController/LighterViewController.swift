@@ -8,7 +8,7 @@
 
 import UIKit
 
-private let reuseIdentifier = "CustomTableViewCell"
+private let reuseIdentifier = "CountryTableViewCell"
 
 final class LighterViewController: UIViewController {
   
@@ -19,7 +19,7 @@ final class LighterViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     tableView.dataSource = countriesDataSource
-    let customCellNib = UINib(nibName: "\(CustomTableViewCell.self)", bundle: nil)
+    let customCellNib = UINib(nibName: "\(CountryTableViewCell.self)", bundle: nil)
     tableView.registerNib(customCellNib, forCellReuseIdentifier: reuseIdentifier)
   }
   

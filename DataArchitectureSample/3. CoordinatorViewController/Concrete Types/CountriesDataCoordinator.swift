@@ -8,7 +8,7 @@
 
 import UIKit
 
-private let reuseIdentifier = "CustomTableViewCell"
+private let reuseIdentifier = "CountryTableViewCell"
 
 final class CountriesDataCoordinator : NSObject, UITableViewDataSource {
   
@@ -16,7 +16,7 @@ final class CountriesDataCoordinator : NSObject, UITableViewDataSource {
   
   init(tableView: UITableView) {
     super.init()
-    let customCellNib = UINib(nibName: "\(CustomTableViewCell.self)", bundle: nil)
+    let customCellNib = UINib(nibName: "\(CountryTableViewCell.self)", bundle: nil)
     tableView.registerNib(customCellNib, forCellReuseIdentifier: reuseIdentifier)
     tableView.dataSource = self
   }
@@ -24,8 +24,8 @@ final class CountriesDataCoordinator : NSObject, UITableViewDataSource {
   //MARK: UITableViewDataSource
   
   func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-    guard let cell = tableView.dequeueReusableCellWithIdentifier(reuseIdentifier) as? CustomTableViewCell else {
-      fatalError("Could not dequeue CustomTableViewCell with identifier: \(reuseIdentifier)")
+    guard let cell = tableView.dequeueReusableCellWithIdentifier(reuseIdentifier) as? CountryTableViewCell else {
+      fatalError("Could not dequeue CountryTableViewCell with identifier: \(reuseIdentifier)")
     }
     
     if let country = countriesDataProvider.objectAtIndexPath(indexPath) {

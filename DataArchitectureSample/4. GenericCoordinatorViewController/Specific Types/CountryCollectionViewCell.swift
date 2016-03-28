@@ -1,5 +1,5 @@
 //
-//  CustomCollectionViewCell.swift
+//  CountryCollectionViewCell.swift
 //  DataArchitectureSample
 //
 //  Created by Luciano Marisi on 26/03/2016.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class CustomCollectionViewCell: UICollectionViewCell, ConfigurableCell {
+final class CountryCollectionViewCell: UICollectionViewCell, ConfigurableCell {
  
   @IBOutlet var countryNameLabel: UILabel!
 
@@ -17,7 +17,7 @@ final class CustomCollectionViewCell: UICollectionViewCell, ConfigurableCell {
   }
   
   static func reuseIdentifier() -> String {
-    return "CustomCollectionViewCell"
+    return "CountryCollectionViewCell"
   }
   
 }
