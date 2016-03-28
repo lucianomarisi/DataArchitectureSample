@@ -138,7 +138,7 @@
             </objects>
             <point key="canvasLocation" x="1949" y="1238"/>
         </scene>
-        <!--Data Provider-->
+        <!--Data Coordinator-->
         <scene sceneID="mgs-aL-FB0">
             <objects>
                 <viewController id="YYt-mx-flM" customClass="DataCoordinatorViewController" customModule="DataArchitectureSample" customModuleProvider="target" sceneMemberID="viewController">
@@ -163,7 +163,7 @@
                             <constraint firstItem="0oY-mf-GpJ" firstAttribute="leading" secondItem="d5f-AR-fTt" secondAttribute="leading" id="lVn-Yd-vXS"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Data Provider" id="9cu-8W-zMF"/>
+                    <tabBarItem key="tabBarItem" title="Data Coordinator" id="9cu-8W-zMF"/>
                     <connections>
                         <outlet property="tableView" destination="0oY-mf-GpJ" id="KfZ-0z-6zi"/>
                     </connections>
@@ -172,7 +172,7 @@
             </objects>
             <point key="canvasLocation" x="1236" y="1238"/>
         </scene>
-        <!--LVC-->
+        <!--VC + DataSource-->
         <scene sceneID="qh4-Gk-amw">
             <objects>
                 <viewController id="238-NB-7TQ" customClass="LighterViewController" customModule="DataArchitectureSample" customModuleProvider="target" sceneMemberID="viewController">
@@ -197,7 +197,7 @@
                             <constraint firstAttribute="trailing" secondItem="d3c-FZ-afb" secondAttribute="trailing" id="tHK-rO-SXa"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="LVC" id="tYX-gA-L65"/>
+                    <tabBarItem key="tabBarItem" title="VC + DataSource" id="tYX-gA-L65"/>
                     <connections>
                         <outlet property="tableView" destination="d3c-FZ-afb" id="pXF-Eo-YSL"/>
                     </connections>

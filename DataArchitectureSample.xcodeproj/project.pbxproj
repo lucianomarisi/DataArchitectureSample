@@ -164,9 +164,9 @@
 		4FBF75C41CA997350032AD54 /* 3. DataCoordinatorViewController */ = {
 			isa = PBXGroup;
 			children = (
-				4FBF75C51CA997350032AD54 /* Concrete Types */,
 				4FBF75C81CA997350032AD54 /* DataCoordinatorViewController.swift */,
 				4FBF75C91CA997350032AD54 /* Protocols */,
+				4FBF75C51CA997350032AD54 /* Concrete Types */,
 			);
 			path = "3. DataCoordinatorViewController";
 			sourceTree = "<group>";
@@ -191,9 +191,9 @@
 		4FBF75CB1CA997350032AD54 /* 4. GenericDataCoordinatorViewController */ = {
 			isa = PBXGroup;
 			children = (
-				4FBF75CC1CA997350032AD54 /* Generic Types */,
 				4FBF75CF1CA997350032AD54 /* GenericDataCoordinatorViewController.swift */,
 				4FBF75D01CA997350032AD54 /* Protocols */,
+				4FBF75CC1CA997350032AD54 /* Generic Types */,
 				4FBF75D31CA997350032AD54 /* Specific Types */,
 			);
 			path = "4. GenericDataCoordinatorViewController";
