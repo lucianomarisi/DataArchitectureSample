@@ -12,11 +12,11 @@ final class CoordinatorViewController: UIViewController {
   
   @IBOutlet weak var tableView: UITableView!
   
-  var countriesDataCoordinator: ComplexCountriesDataCoordinator?
+  var countriesDataCoordinator: CountriesDataCoordinator?
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    countriesDataCoordinator = ComplexCountriesDataCoordinator(tableView: tableView)
+    countriesDataCoordinator = CountriesDataCoordinator(tableView: tableView)
   }
   
 }

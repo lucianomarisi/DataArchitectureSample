@@ -8,27 +8,28 @@
 
 import UIKit
 
-private let reuseIdentifier = "reuseIdentifier"
+private let reuseIdentifier = "CustomTableViewCell"
 
-final class ComplexCountriesDataCoordinator : NSObject, UITableViewDataSource {
+final class CountriesDataCoordinator : NSObject, UITableViewDataSource {
   
   let countriesDataProvider = CountriesDataProvider()
   
   init(tableView: UITableView) {
     super.init()
+    let customCellNib = UINib(nibName: "\(CustomTableViewCell.self)", bundle: nil)
+    tableView.registerNib(customCellNib, forCellReuseIdentifier: reuseIdentifier)
     tableView.dataSource = self
-    tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: reuseIdentifier)
   }
   
   //MARK: UITableViewDataSource
   
   func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-    guard let cell = tableView.dequeueReusableCellWithIdentifier(reuseIdentifier) else {
-      fatalError("Could not dequeue cell with identifier: \(reuseIdentifier)")
+    guard let cell = tableView.dequeueReusableCellWithIdentifier(reuseIdentifier) as? CustomTableViewCell else {
+      fatalError("Could not dequeue CustomTableViewCell with identifier: \(reuseIdentifier)")
     }
     
     if let country = countriesDataProvider.objectAtIndexPath(indexPath) {
-      cell.textLabel?.text = country.name
+      cell.countryNameLabel?.text = country.name
     }
     
     return cell

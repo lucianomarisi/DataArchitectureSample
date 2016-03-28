@@ -13,7 +13,7 @@ struct CountriesDataProvider : DataProvider {
   private let allCountries: [Country] = Country.allCountries()
   
   func objectAtIndexPath(indexPath: NSIndexPath) -> Country? {
-    return allCountries[indexPath.row]
+    return allCountries.indices.contains(indexPath.row) ? allCountries[indexPath.row] : nil
   }
   
   func numberOfItemsInSection(section: Int) -> Int {

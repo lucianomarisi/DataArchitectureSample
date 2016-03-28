@@ -38,65 +38,6 @@
             </objects>
             <point key="canvasLocation" x="-115" y="1238"/>
         </scene>
-        <!--CustomCell-->
-        <scene sceneID="glB-Ib-zRb">
-            <objects>
-                <viewController id="skK-Yy-qkZ" customClass="CustomTableViewCellViewController" customModule="DataArchitectureSample" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ofP-qL-XWh"/>
-                        <viewControllerLayoutGuide type="bottom" id="Fq0-p6-Dyn"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="GnQ-ej-NrZ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="PNm-eZ-sVk">
-                                <rect key="frame" x="0.0" y="20" width="600" height="531"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="CustomTableViewCell" id="Cbm-9G-1eb" customClass="CustomTableViewCell" customModule="DataArchitectureSample" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="600" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Cbm-9G-1eb" id="nO0-IG-987">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6nb-cX-edc">
-                                                    <rect key="frame" x="278" y="11" width="45" height="21"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                                    <color key="textColor" red="0.29042857885360718" green="0.69835454225540161" blue="0.42672556638717651" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="6nb-cX-edc" firstAttribute="centerX" secondItem="nO0-IG-987" secondAttribute="centerX" id="5gJ-Kw-aLn"/>
-                                                <constraint firstItem="6nb-cX-edc" firstAttribute="centerY" secondItem="nO0-IG-987" secondAttribute="centerY" id="lpE-hL-yPE"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="countryNameLabel" destination="6nb-cX-edc" id="Nru-cP-rJf"/>
-                                        </connections>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="PNm-eZ-sVk" firstAttribute="leading" secondItem="GnQ-ej-NrZ" secondAttribute="leading" id="B5T-0l-xk4"/>
-                            <constraint firstItem="PNm-eZ-sVk" firstAttribute="top" secondItem="ofP-qL-XWh" secondAttribute="bottom" id="Yej-B0-E08"/>
-                            <constraint firstItem="Fq0-p6-Dyn" firstAttribute="top" secondItem="PNm-eZ-sVk" secondAttribute="bottom" id="Zdb-bD-6uG"/>
-                            <constraint firstAttribute="trailing" secondItem="PNm-eZ-sVk" secondAttribute="trailing" id="tDa-ZQ-Ly0"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="CustomCell" id="1iM-e2-oFY"/>
-                    <connections>
-                        <outlet property="tableView" destination="PNm-eZ-sVk" id="p21-MV-70W"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mbR-Fx-8oN" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1867" y="1238"/>
-        </scene>
         <!--Generic Coordinator-->
         <scene sceneID="Q0i-yC-cjI">
             <objects>
@@ -322,7 +263,7 @@
             </objects>
             <point key="canvasLocation" x="3145" y="1238"/>
         </scene>
-        <!--Basic DataCoordinator-->
+        <!--Data Provider-->
         <scene sceneID="mgs-aL-FB0">
             <objects>
                 <viewController id="YYt-mx-flM" customClass="CoordinatorViewController" customModule="DataArchitectureSample" customModuleProvider="target" sceneMemberID="viewController">
@@ -347,7 +288,7 @@
                             <constraint firstItem="0oY-mf-GpJ" firstAttribute="leading" secondItem="d5f-AR-fTt" secondAttribute="leading" id="lVn-Yd-vXS"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Basic DataCoordinator" id="9cu-8W-zMF"/>
+                    <tabBarItem key="tabBarItem" title="Data Provider" id="9cu-8W-zMF"/>
                     <connections>
                         <outlet property="tableView" destination="0oY-mf-GpJ" id="KfZ-0z-6zi"/>
                     </connections>
@@ -403,7 +344,6 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Ctd-Nk-Qz6"/>
                         <segue destination="238-NB-7TQ" kind="relationship" relationship="viewControllers" id="XId-wk-BSO"/>
                         <segue destination="YYt-mx-flM" kind="relationship" relationship="viewControllers" id="bKj-rn-r8L"/>
-                        <segue destination="skK-Yy-qkZ" kind="relationship" relationship="viewControllers" id="dTf-cF-njp"/>
                         <segue destination="U55-2D-sJb" kind="relationship" relationship="viewControllers" id="ir5-UU-heY"/>
                         <segue destination="76i-Vr-MmD" kind="relationship" relationship="viewControllers" id="blQ-WM-I5S"/>
                         <segue destination="x6x-0c-LyR" kind="relationship" relationship="viewControllers" id="F2h-6O-2pE"/>
