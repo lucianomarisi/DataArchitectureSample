@@ -8,10 +8,14 @@
 
 import UIKit
 
-final class CustomTableViewCell : UITableViewCell, ConfigurableCell {
+final class CustomTableViewCell : UITableViewCell {
   
   @IBOutlet var countryNameLabel: UILabel!
   
+}
+
+
+extension CustomTableViewCell: ConfigurableCell {
   func configureForObject(country: Country) {
     countryNameLabel.text = country.name
   }
@@ -19,5 +23,4 @@ final class CustomTableViewCell : UITableViewCell, ConfigurableCell {
   static func reuseIdentifier() -> String {
     return "CustomTableViewCell"
   }
-  
 }

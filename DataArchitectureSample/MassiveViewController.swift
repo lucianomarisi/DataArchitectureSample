@@ -8,7 +8,7 @@
 
 import UIKit
 
-private let reuseIdentifier = "reuseIdentifier"
+private let reuseIdentifier = "CustomTableViewCell"
 
 final class MassiveViewController: UIViewController, UITableViewDataSource {
 
@@ -19,17 +19,18 @@ final class MassiveViewController: UIViewController, UITableViewDataSource {
   override func viewDidLoad() {
     super.viewDidLoad()
     tableView.dataSource = self
-    tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: reuseIdentifier)
+    let customCellNib = UINib(nibName: "\(CustomTableViewCell.self)", bundle: nil)
+    tableView.registerNib(customCellNib, forCellReuseIdentifier: reuseIdentifier)
   }
   
   //MARK: UITableViewDataSource
   
   func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-    guard let cell = tableView.dequeueReusableCellWithIdentifier(reuseIdentifier) else {
+    guard let cell = tableView.dequeueReusableCellWithIdentifier(reuseIdentifier) as? CustomTableViewCell else {
       fatalError("Could not dequeue cell with identifier: \(reuseIdentifier)")
     }
     let country = countries[indexPath.row]
-    cell.textLabel?.text = country.name
+    cell.countryNameLabel?.text = country.name
     return cell
   }
   

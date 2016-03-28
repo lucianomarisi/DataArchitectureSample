@@ -19,7 +19,8 @@ final class LighterViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     tableView.dataSource = countriesDataSource
-    tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: reuseIdentifier)
+    let customCellNib = UINib(nibName: "\(CustomTableViewCell.self)", bundle: nil)
+    tableView.registerNib(customCellNib, forCellReuseIdentifier: reuseIdentifier)
   }
   
 }
