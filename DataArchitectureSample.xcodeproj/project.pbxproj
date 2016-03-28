@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4F27EBD81CA703CB00AE4C73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F27EBD71CA703CB00AE4C73 /* AppDelegate.swift */; };
-		4F27EBDA1CA703CB00AE4C73 /* MassiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F27EBD91CA703CB00AE4C73 /* MassiveViewController.swift */; };
 		4F27EBDD1CA703CB00AE4C73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F27EBDB1CA703CB00AE4C73 /* Main.storyboard */; };
 		4F27EBDF1CA703CB00AE4C73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F27EBDE1CA703CB00AE4C73 /* Assets.xcassets */; };
 		4F27EBE21CA703CB00AE4C73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F27EBE01CA703CB00AE4C73 /* LaunchScreen.storyboard */; };
@@ -23,13 +22,12 @@
 		4F6251BF1CA98C8900983337 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6251BE1CA98C8900983337 /* CustomTableViewCell.swift */; };
 		4F6251C11CA98D4100983337 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F6251C01CA98D4100983337 /* CustomTableViewCell.xib */; };
 		4F6251C31CA98EE500983337 /* ConfigurableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6251C21CA98EE500983337 /* ConfigurableCell.swift */; };
-		4F81FA111CA72BFD00D78073 /* GenericTableViewDataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81FA0C1CA72BFD00D78073 /* GenericTableViewDataCoordinator.swift */; };
-		4F81FA121CA72BFD00D78073 /* SimpleCountriesDataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81FA0E1CA72BFD00D78073 /* SimpleCountriesDataCoordinator.swift */; };
-		4F81FA131CA72BFD00D78073 /* GenericTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81FA0F1CA72BFD00D78073 /* GenericTableViewController.swift */; };
-		4F81FA211CA72CB700D78073 /* GenericCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81FA201CA72CB700D78073 /* GenericCollectionViewController.swift */; };
-		4F81FA2B1CA72E6800D78073 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81FA2A1CA72E6800D78073 /* CustomCollectionViewCell.swift */; };
-		4F81FA2D1CA72E8900D78073 /* GenericCollectionViewDataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81FA2C1CA72E8900D78073 /* GenericCollectionViewDataCoordinator.swift */; };
-		4F81FA2F1CA72F5200D78073 /* CollectionViewCountriesDataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81FA2E1CA72F5200D78073 /* CollectionViewCountriesDataCoordinator.swift */; };
+		4F6251CB1CA993E800983337 /* GenericCollectionViewDataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6251C51CA993E800983337 /* GenericCollectionViewDataCoordinator.swift */; };
+		4F6251CC1CA993E800983337 /* GenericTableViewDataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6251C61CA993E800983337 /* GenericTableViewDataCoordinator.swift */; };
+		4F6251CD1CA993E800983337 /* CollectionViewCountriesDataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6251C81CA993E800983337 /* CollectionViewCountriesDataCoordinator.swift */; };
+		4F6251CE1CA993E800983337 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6251C91CA993E800983337 /* CustomCollectionViewCell.swift */; };
+		4F6251CF1CA993E800983337 /* SimpleCountriesDataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6251CA1CA993E800983337 /* SimpleCountriesDataCoordinator.swift */; };
+		4F6251D21CA9940700983337 /* MassiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F6251D11CA9940700983337 /* MassiveViewController.swift */; };
 		4F81FA371CA7380400D78073 /* MixedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81FA361CA7380400D78073 /* MixedViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +44,6 @@
 /* Begin PBXFileReference section */
 		4F27EBD41CA703CB00AE4C73 /* DataArchitectureSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataArchitectureSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F27EBD71CA703CB00AE4C73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4F27EBD91CA703CB00AE4C73 /* MassiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassiveViewController.swift; sourceTree = "<group>"; };
 		4F27EBDC1CA703CB00AE4C73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F27EBDE1CA703CB00AE4C73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F27EBE11CA703CB00AE4C73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,13 +61,12 @@
 		4F6251BE1CA98C8900983337 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		4F6251C01CA98D4100983337 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		4F6251C21CA98EE500983337 /* ConfigurableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurableCell.swift; sourceTree = "<group>"; };
-		4F81FA0C1CA72BFD00D78073 /* GenericTableViewDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericTableViewDataCoordinator.swift; sourceTree = "<group>"; };
-		4F81FA0E1CA72BFD00D78073 /* SimpleCountriesDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCountriesDataCoordinator.swift; sourceTree = "<group>"; };
-		4F81FA0F1CA72BFD00D78073 /* GenericTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GenericTableViewController.swift; path = ../GenericTableViewController.swift; sourceTree = "<group>"; };
-		4F81FA201CA72CB700D78073 /* GenericCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericCollectionViewController.swift; sourceTree = "<group>"; };
-		4F81FA2A1CA72E6800D78073 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
-		4F81FA2C1CA72E8900D78073 /* GenericCollectionViewDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericCollectionViewDataCoordinator.swift; sourceTree = "<group>"; };
-		4F81FA2E1CA72F5200D78073 /* CollectionViewCountriesDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCountriesDataCoordinator.swift; sourceTree = "<group>"; };
+		4F6251C51CA993E800983337 /* GenericCollectionViewDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericCollectionViewDataCoordinator.swift; sourceTree = "<group>"; };
+		4F6251C61CA993E800983337 /* GenericTableViewDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericTableViewDataCoordinator.swift; sourceTree = "<group>"; };
+		4F6251C81CA993E800983337 /* CollectionViewCountriesDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCountriesDataCoordinator.swift; sourceTree = "<group>"; };
+		4F6251C91CA993E800983337 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		4F6251CA1CA993E800983337 /* SimpleCountriesDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCountriesDataCoordinator.swift; sourceTree = "<group>"; };
+		4F6251D11CA9940700983337 /* MassiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MassiveViewController.swift; sourceTree = "<group>"; };
 		4F81FA361CA7380400D78073 /* MixedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MixedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,13 +112,11 @@
 				4F27EBD71CA703CB00AE4C73 /* AppDelegate.swift */,
 				4F4E28DD1CA708EE00FB3046 /* Country.swift */,
 				4F27EBDB1CA703CB00AE4C73 /* Main.storyboard */,
-				4F27EBD91CA703CB00AE4C73 /* MassiveViewController.swift */,
 				4F6251C01CA98D4100983337 /* CustomTableViewCell.xib */,
 				4F6251BE1CA98C8900983337 /* CustomTableViewCell.swift */,
+				4F6251D01CA9940700983337 /* MassiveViewController */,
 				4F4E28E21CA70F2400FB3046 /* LighterViewController */,
 				4F4E28E71CA7102600FB3046 /* CoordinatorViewController */,
-				4F81FA091CA72BFD00D78073 /* GenericTableViewController */,
-				4F81FA1F1CA72C6C00D78073 /* GenericCollectionViewController */,
 				4F81FA351CA737FD00D78073 /* MixedViewController */,
 				4F27EBDE1CA703CB00AE4C73 /* Assets.xcassets */,
 				4F27EBE01CA703CB00AE4C73 /* LaunchScreen.storyboard */,
@@ -177,71 +171,39 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
-		4F81FA091CA72BFD00D78073 /* GenericTableViewController */ = {
+		4F6251C41CA993E800983337 /* Generic Types */ = {
 			isa = PBXGroup;
 			children = (
-				4F81FA0A1CA72BFD00D78073 /* ConcreteTypes */,
-			);
-			path = GenericTableViewController;
-			sourceTree = "<group>";
-		};
-		4F81FA0A1CA72BFD00D78073 /* ConcreteTypes */ = {
-			isa = PBXGroup;
-			children = (
-				4F81FA0F1CA72BFD00D78073 /* GenericTableViewController.swift */,
-				4F81FA0B1CA72BFD00D78073 /* Generic Types */,
-				4F81FA0D1CA72BFD00D78073 /* Specific Types */,
-			);
-			path = ConcreteTypes;
-			sourceTree = "<group>";
-		};
-		4F81FA0B1CA72BFD00D78073 /* Generic Types */ = {
-			isa = PBXGroup;
-			children = (
-				4F81FA0C1CA72BFD00D78073 /* GenericTableViewDataCoordinator.swift */,
+				4F6251C51CA993E800983337 /* GenericCollectionViewDataCoordinator.swift */,
+				4F6251C61CA993E800983337 /* GenericTableViewDataCoordinator.swift */,
 			);
 			path = "Generic Types";
 			sourceTree = "<group>";
 		};
-		4F81FA0D1CA72BFD00D78073 /* Specific Types */ = {
+		4F6251C71CA993E800983337 /* Specific Types */ = {
 			isa = PBXGroup;
 			children = (
-				4F81FA0E1CA72BFD00D78073 /* SimpleCountriesDataCoordinator.swift */,
+				4F6251C81CA993E800983337 /* CollectionViewCountriesDataCoordinator.swift */,
+				4F6251C91CA993E800983337 /* CustomCollectionViewCell.swift */,
+				4F6251CA1CA993E800983337 /* SimpleCountriesDataCoordinator.swift */,
 			);
 			path = "Specific Types";
 			sourceTree = "<group>";
 		};
-		4F81FA1F1CA72C6C00D78073 /* GenericCollectionViewController */ = {
+		4F6251D01CA9940700983337 /* MassiveViewController */ = {
 			isa = PBXGroup;
 			children = (
-				4F81FA201CA72CB700D78073 /* GenericCollectionViewController.swift */,
-				4F81FA281CA72E5600D78073 /* Generic Types */,
-				4F81FA291CA72E6800D78073 /* Specific Types */,
+				4F6251D11CA9940700983337 /* MassiveViewController.swift */,
 			);
-			path = GenericCollectionViewController;
-			sourceTree = "<group>";
-		};
-		4F81FA281CA72E5600D78073 /* Generic Types */ = {
-			isa = PBXGroup;
-			children = (
-				4F81FA2C1CA72E8900D78073 /* GenericCollectionViewDataCoordinator.swift */,
-			);
-			path = "Generic Types";
-			sourceTree = "<group>";
-		};
-		4F81FA291CA72E6800D78073 /* Specific Types */ = {
-			isa = PBXGroup;
-			children = (
-				4F81FA2E1CA72F5200D78073 /* CollectionViewCountriesDataCoordinator.swift */,
-				4F81FA2A1CA72E6800D78073 /* CustomCollectionViewCell.swift */,
-			);
-			path = "Specific Types";
+			path = MassiveViewController;
 			sourceTree = "<group>";
 		};
 		4F81FA351CA737FD00D78073 /* MixedViewController */ = {
 			isa = PBXGroup;
 			children = (
 				4F81FA361CA7380400D78073 /* MixedViewController.swift */,
+				4F6251C41CA993E800983337 /* Generic Types */,
+				4F6251C71CA993E800983337 /* Specific Types */,
 			);
 			path = MixedViewController;
 			sourceTree = "<group>";
@@ -349,23 +311,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F81FA371CA7380400D78073 /* MixedViewController.swift in Sources */,
+				4F6251CE1CA993E800983337 /* CustomCollectionViewCell.swift in Sources */,
 				4F4E28E41CA70F2400FB3046 /* LighterViewController.swift in Sources */,
-				4F81FA111CA72BFD00D78073 /* GenericTableViewDataCoordinator.swift in Sources */,
 				4F6251C31CA98EE500983337 /* ConfigurableCell.swift in Sources */,
 				4F6251BF1CA98C8900983337 /* CustomTableViewCell.swift in Sources */,
-				4F81FA2D1CA72E8900D78073 /* GenericCollectionViewDataCoordinator.swift in Sources */,
-				4F81FA2F1CA72F5200D78073 /* CollectionViewCountriesDataCoordinator.swift in Sources */,
-				4F81FA121CA72BFD00D78073 /* SimpleCountriesDataCoordinator.swift in Sources */,
-				4F81FA2B1CA72E6800D78073 /* CustomCollectionViewCell.swift in Sources */,
-				4F27EBDA1CA703CB00AE4C73 /* MassiveViewController.swift in Sources */,
 				4F4E28E61CA70F2F00FB3046 /* CountriesDataSource.swift in Sources */,
 				4F4E28E91CA7103000FB3046 /* CoordinatorViewController.swift in Sources */,
+				4F6251CD1CA993E800983337 /* CollectionViewCountriesDataCoordinator.swift in Sources */,
 				4F4E28DE1CA708EE00FB3046 /* Country.swift in Sources */,
 				4F27EBD81CA703CB00AE4C73 /* AppDelegate.swift in Sources */,
+				4F6251D21CA9940700983337 /* MassiveViewController.swift in Sources */,
 				4F4E28FA1CA714B400FB3046 /* DataProvider.swift in Sources */,
 				4F4E28F81CA714B400FB3046 /* CountriesDataCoordinator.swift in Sources */,
-				4F81FA131CA72BFD00D78073 /* GenericTableViewController.swift in Sources */,
-				4F81FA211CA72CB700D78073 /* GenericCollectionViewController.swift in Sources */,
+				4F6251CB1CA993E800983337 /* GenericCollectionViewDataCoordinator.swift in Sources */,
+				4F6251CC1CA993E800983337 /* GenericTableViewDataCoordinator.swift in Sources */,
+				4F6251CF1CA993E800983337 /* SimpleCountriesDataCoordinator.swift in Sources */,
 				4F4E28F91CA714B400FB3046 /* CountriesDataProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
