@@ -157,8 +157,8 @@
 		4F6251E11CA9950500983337 /* 2. LighterViewController */ = {
 			isa = PBXGroup;
 			children = (
-				4F6251E21CA9950500983337 /* CountriesDataSource.swift */,
 				4F6251E31CA9950500983337 /* LighterViewController.swift */,
+				4F6251E21CA9950500983337 /* CountriesDataSource.swift */,
 			);
 			path = "2. LighterViewController";
 			sourceTree = "<group>";

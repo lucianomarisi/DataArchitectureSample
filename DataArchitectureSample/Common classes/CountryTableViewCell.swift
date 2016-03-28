@@ -9,9 +9,5 @@
 import UIKit
 
 final class CountryTableViewCell : UITableViewCell {
-  
   @IBOutlet var countryNameLabel: UILabel!
-  
 }
-
-

@@ -14,5 +14,4 @@ protocol DataProvider {
   
   func objectAtIndexPath(indexPath: NSIndexPath) -> DataObject?
   func numberOfItemsInSection(section: Int) -> Int
-  
 }

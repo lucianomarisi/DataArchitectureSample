@@ -15,5 +15,4 @@ protocol ConfigurableCell {
   func configureForObject(object: DataObject)
   
   static func reuseIdentifier() -> String
-  
 }
