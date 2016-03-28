@@ -10,7 +10,7 @@ import UIKit
 
 final class CountriesDataSource: NSObject, UITableViewDataSource {
   
-  private let countries = Country.allCountries()
+  private let countries: [Country] = Country.allCountries()
   private let reuseIdentifier: String
   
   init(reuseIdentifier: String) {
