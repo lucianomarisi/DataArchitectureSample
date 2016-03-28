@@ -10,7 +10,7 @@ import UIKit
 
 private let reuseIdentifier = "reuseIdentifier"
 
-final class ComplexCountriesDataCoordinator : NSObject, TableViewDataCoordinator {
+final class ComplexCountriesDataCoordinator : NSObject, UITableViewDataSource {
   
   let countriesDataProvider = CountriesDataProvider()
   

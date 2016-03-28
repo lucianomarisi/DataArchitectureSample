@@ -20,7 +20,6 @@
 		4F4E28F81CA714B400FB3046 /* CountriesDataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4E28F31CA714B400FB3046 /* CountriesDataCoordinator.swift */; };
 		4F4E28F91CA714B400FB3046 /* CountriesDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4E28F41CA714B400FB3046 /* CountriesDataProvider.swift */; };
 		4F4E28FA1CA714B400FB3046 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4E28F61CA714B400FB3046 /* DataProvider.swift */; };
-		4F4E28FB1CA714B400FB3046 /* TableViewDataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F4E28F71CA714B400FB3046 /* TableViewDataCoordinator.swift */; };
 		4F81FA111CA72BFD00D78073 /* GenericTableViewDataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81FA0C1CA72BFD00D78073 /* GenericTableViewDataCoordinator.swift */; };
 		4F81FA121CA72BFD00D78073 /* SimpleCountriesDataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81FA0E1CA72BFD00D78073 /* SimpleCountriesDataCoordinator.swift */; };
 		4F81FA131CA72BFD00D78073 /* GenericTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F81FA0F1CA72BFD00D78073 /* GenericTableViewController.swift */; };
@@ -63,7 +62,6 @@
 		4F4E28F31CA714B400FB3046 /* CountriesDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesDataCoordinator.swift; sourceTree = "<group>"; };
 		4F4E28F41CA714B400FB3046 /* CountriesDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesDataProvider.swift; sourceTree = "<group>"; };
 		4F4E28F61CA714B400FB3046 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
-		4F4E28F71CA714B400FB3046 /* TableViewDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewDataCoordinator.swift; sourceTree = "<group>"; };
 		4F81FA0C1CA72BFD00D78073 /* GenericTableViewDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericTableViewDataCoordinator.swift; sourceTree = "<group>"; };
 		4F81FA0E1CA72BFD00D78073 /* SimpleCountriesDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleCountriesDataCoordinator.swift; sourceTree = "<group>"; };
 		4F81FA0F1CA72BFD00D78073 /* GenericTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GenericTableViewController.swift; path = ../GenericTableViewController.swift; sourceTree = "<group>"; };
@@ -175,7 +173,6 @@
 			isa = PBXGroup;
 			children = (
 				4F4E28F61CA714B400FB3046 /* DataProvider.swift */,
-				4F4E28F71CA714B400FB3046 /* TableViewDataCoordinator.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -396,7 +393,6 @@
 				4F4E28FA1CA714B400FB3046 /* DataProvider.swift in Sources */,
 				4F4E28F81CA714B400FB3046 /* CountriesDataCoordinator.swift in Sources */,
 				4F81FA131CA72BFD00D78073 /* GenericTableViewController.swift in Sources */,
-				4F4E28FB1CA714B400FB3046 /* TableViewDataCoordinator.swift in Sources */,
 				4F81FA211CA72CB700D78073 /* GenericCollectionViewController.swift in Sources */,
 				4F4E28F91CA714B400FB3046 /* CountriesDataProvider.swift in Sources */,
 			);

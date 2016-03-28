@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class CustomTableViewCellDataCoordinator : NSObject, TableViewDataCoordinator {
+final class CustomTableViewCellDataCoordinator : NSObject, UITableViewDataSource {
   
   let countriesDataProvider = CountriesDataProvider()
   
