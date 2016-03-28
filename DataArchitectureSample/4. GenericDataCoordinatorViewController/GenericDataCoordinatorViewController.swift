@@ -10,17 +10,17 @@ import UIKit
 
 final class GenericDataDataCoordinatorViewController: UIViewController {
   
-  @IBOutlet weak var collectionView: UICollectionView!
   @IBOutlet weak var tableView: UITableView!
-
-  var collectionViewDataCoordinator: CollectionViewCountriesDataCoordinator?
+  @IBOutlet weak var collectionView: UICollectionView!
+  
   var tableViewDataCoordinator: CountriesTableViewDataCoordinator?
+  var collectionViewDataCoordinator: CollectionViewCountriesDataCoordinator?
 
   override func viewDidLoad() {
     super.viewDidLoad()
     let countriesDataProvider = CountriesDataProvider()
     // Example of how the CountriesDataProvider can be reuse for different coordinators
-    collectionViewDataCoordinator = CollectionViewCountriesDataCoordinator(collectionView: collectionView, countriesDataProvider: countriesDataProvider)
     tableViewDataCoordinator = CountriesTableViewDataCoordinator(tableView: tableView, countriesDataProvider: countriesDataProvider)
+    collectionViewDataCoordinator = CollectionViewCountriesDataCoordinator(collectionView: collectionView, countriesDataProvider: countriesDataProvider)
   }
 }
