@@ -1,5 +1,5 @@
 //
-//  CoordinatorViewController.swift
+//  DataCoordinatorViewController.swift
 //  DataArchitectureSample
 //
 //  Created by Luciano Marisi on 26/03/2016.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class CoordinatorViewController: UIViewController {
+final class DataCoordinatorViewController: UIViewController {
   
   @IBOutlet weak var tableView: UITableView!
   

@@ -38,10 +38,10 @@
             </objects>
             <point key="canvasLocation" x="-115" y="1238"/>
         </scene>
-        <!--GenericCoordinatorViewController-->
+        <!--GenericDataDataCoordinatorViewController-->
         <scene sceneID="A3A-LY-qcf">
             <objects>
-                <viewController title="GenericCoordinatorViewController" id="x6x-0c-LyR" customClass="GenericCoordinatorViewController" customModule="DataArchitectureSample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="GenericDataDataCoordinatorViewController" id="x6x-0c-LyR" customClass="GenericDataDataCoordinatorViewController" customModule="DataArchitectureSample" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6Zo-ZO-11h"/>
                         <viewControllerLayoutGuide type="bottom" id="3vr-Lv-xSW"/>
@@ -141,7 +141,7 @@
         <!--Data Provider-->
         <scene sceneID="mgs-aL-FB0">
             <objects>
-                <viewController id="YYt-mx-flM" customClass="CoordinatorViewController" customModule="DataArchitectureSample" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="YYt-mx-flM" customClass="DataCoordinatorViewController" customModule="DataArchitectureSample" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fOR-9W-Q3G"/>
                         <viewControllerLayoutGuide type="bottom" id="VEC-9J-sv7"/>

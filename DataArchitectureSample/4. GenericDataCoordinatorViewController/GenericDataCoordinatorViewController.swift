@@ -1,5 +1,5 @@
 //
-//  GenericCoordinatorViewController.swift
+//  GenericDataDataCoordinatorViewController.swift
 //  DataArchitectureSample
 //
 //  Created by Luciano Marisi on 26/03/2016.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class GenericCoordinatorViewController: UIViewController {
+final class GenericDataDataCoordinatorViewController: UIViewController {
   
   @IBOutlet weak var collectionView: UICollectionView!
   @IBOutlet weak var tableView: UITableView!
