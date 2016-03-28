@@ -8,7 +8,7 @@
 
 import UIKit
 
-private let reuseIdentifier = "reuseIdentifier"
+private let reuseIdentifier = "CustomTableViewCell"
 
 final class LighterViewController: UIViewController {
   
