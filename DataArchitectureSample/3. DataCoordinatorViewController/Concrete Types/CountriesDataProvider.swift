@@ -10,7 +10,7 @@ import Foundation
 
 struct CountriesDataProvider : DataProvider {
   
-  private let allCountries: [Country] = Country.allCountries()
+  private let allCountries: [Country] = CountryLoader.allCountries()
   
   func objectAtIndexPath(indexPath: NSIndexPath) -> Country? {
     return allCountries.indices.contains(indexPath.row) ? allCountries[indexPath.row] : nil

@@ -1,5 +1,5 @@
 //
-//  CollectionViewCountriesDataCoordinator.swift
+//  CountriesCollectionViewDataCoordinator.swift
 //  DataArchitectureSample
 //
 //  Created by Luciano Marisi on 26/03/2016.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-final class CollectionViewCountriesDataCoordinator : GenericCollectionViewDataCoordinator<CountriesDataProvider, CountryCollectionViewCell> {
+final class CountriesCollectionViewDataCoordinator : GenericCollectionViewDataCoordinator<CountriesDataProvider, CountryCollectionViewCell> {
   
   init(collectionView: UICollectionView, countriesDataProvider: CountriesDataProvider = CountriesDataProvider()) {
     let customCellNib = UINib(nibName: "\(CountryCollectionViewCell.self)", bundle: nil)

@@ -14,7 +14,7 @@ final class MassiveViewController: UIViewController, UITableViewDataSource {
 
   @IBOutlet weak var tableView: UITableView!
   
-  private let countries: [Country] = Country.allCountries()
+  private let countries: [Country] = CountryLoader.allCountries()
   
   override func viewDidLoad() {
     super.viewDidLoad()
